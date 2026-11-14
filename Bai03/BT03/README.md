@@ -1,4 +1,4 @@
-# Bài thực hành 03 - Buổi 03: Module File System (`fs`) trong Node.js
+# Bài thực hành 03 - Phần 03: Module File System (`fs`) trong Node.js
 
 ## 1. Yêu cầu bài tập
 - Tạo tập tin `bai03.js` sử dụng module `fs`.
