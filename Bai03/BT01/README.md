@@ -1,4 +1,4 @@
-# Bài thực hành 03 - Buổi 01: Node.js Cơ bản
+# Bài thực hành 03 - phần 01: Node.js Cơ bản
 
 ## 1. Yêu cầu bài tập
 - Tạo tập tin `bai01.js`.
