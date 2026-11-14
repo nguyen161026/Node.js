@@ -1,4 +1,4 @@
-# Bài thực hành 03 - Buổi 02: Tạo Web Server với Node.js
+# Bài thực hành 03 - phần 02: Tạo Web Server với Node.js
 
 ## 1. Yêu cầu bài tập
 - Tạo tập tin `bai02.js`.
