@@ -1,0 +1,37 @@
+
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title May tinh Express
+        link(rel="stylesheet" href="/styles.css")
+
+    body
+        .container
+            h1 MAY TINH EXPRESS
+            p Ung dung tinh toan bang Node.js
+
+            form(action="/calculator/calculate" method="POST")
+
+                label So thu nhat
+                input(type="number" name="num1" step="any" value=num1 required)
+
+                label So thu hai
+                input(type="number" name="num2" step="any" value=num2 required)
+
+                label Chon phep tinh
+                select(name="operation" required)
+                    option(value="add" selected=operation === 'add') Cong (+)
+                    option(value="subtract" selected=operation === 'subtract') Tru (-)
+                    option(value="multiply" selected=operation === 'multiply') Nhan (*)
+                    option(value="divide" selected=operation === 'divide') Chia (/)
+
+                button(type="submit") TINH KET QUA
+
+            if result !== undefined
+                .result
+                    h2 KET QUA
+                    h1= result
+
+            a(href="/calculator") Lam lai
